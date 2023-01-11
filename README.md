@@ -8,7 +8,7 @@ The Calendar service has a following requirements that have been already impleme
 
 ### 1. Display reminders in the dashboard
 The reminder is displayed on the dashboard on the day of the reminder at 00:00. Reminders must display the text entered by the employee, and have a “Done” button. Reminders marked as “done” will not appear anymore. Past reminders, not marked as done, must still appear.
->**Example:** A reminder set for 2018-12-20 will first appear on the dashboard on 2018-12-20 at 00:00. On 2018-12-21, if not marked as “Done” by the employee, the reminder will still appear.
+>**Example:** A reminder set for 2020-01-03 will first appear on the dashboard on 2020-01-03 at 00:00. On 2020-01-04, if not marked as “Done” by the employee, the reminder will still appear.
 
 ### 2. Send reminders by email (Sending Mail Yet to be implemented)
 The employee can also optionally enter a time of day (in addition to the date). The reminder will be sent by email on that date & time to the employee’s email address, unless the reminder was already marked as ”done” prior to that time. The precision is 5 minutes (e.g. the employee can select e.g. 14:00, 14:05, 14:10, etc.). The email must be only sent **once** for each reminder, *i.e. even if the reminder is not marked as done, and continue appearing in the dashboard, the email must not repeat every day*.
